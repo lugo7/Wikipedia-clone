@@ -1,0 +1,311 @@
+`<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Wikipedia Clone</title>
+  <link rel="Stylesheet" href="wiki.css" type="text/css">
+  <meta charset="UTF-8"/>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <div id="sideMenu">
+    <div id="logo">
+      <img src="images/wikipediaLogo.png" height="100" width="100" />
+      <h1>Wikipedia</h1>
+      <h2>The Free Encyclopedia</h2>
+    </div>
+    <nav id='mainMenu'>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Main_Page">Main page</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Contents">Contents</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Portal:Current_events">Current events</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Special:Random">Random article</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Wikipedia:About">About Wikipedia</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+        <li><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en">Donate</a></li>
+      </ul>
+      <p class="menuHeader">Contribute</p>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Help:Contents">Help</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Help:Introduction">Learn to edit</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Community_portal">Community portal</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Special:RecentChanges">Recent changes</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard">Upload file</a></li>
+      </ul>
+      <p class="menuHeader">Tools</p>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Special:WhatLinksHere/Main_Page">What links here</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Main_Page">Related changes</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Special:SpecialPages">Special pages</a></li>
+        <li><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&oldid=1082764418">Permanent link</a></li>
+        <li><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&action=info">Page information</a></li>
+        <li><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5296">Wikidata item</a></li>
+      </ul>
+      <p class="menuHeader">Print/export</p>
+      <ul>
+        <li><a href="https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=Main_Page&action=show-download-screen">Download as PDF</a></li>
+        <li><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&printable=yes">Printable version</a></li>
+      </ul>
+      <p class="menuHeader">In other projects</p>
+      <ul>
+        <li><a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a></li>
+        <li><a href="https://www.mediawiki.org/wiki/MediaWiki">MediaWiki</a></li>
+        <li><a href="https://meta.wikimedia.org/wiki/Main_Page">Meta-Wiki</a></li>
+        <li><a href="https://wikisource.org/wiki/Main_Page">Multilingual Wikisource</a></li>
+        <li><a href="https://species.wikimedia.org/wiki/Main_Page">Wikispecies</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/Main_Page">Wikibooks</a></li>
+        <li><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a></li>
+        <li><a href="https://wikimania.wikimedia.org/wiki/Wikimania">Wikimania</a></li>
+        <li><a href="https://en.wikinews.org/wiki/Main_Page">Wikinews</a></li>
+        <li><a href="https://en.wikiquote.org/wiki/Main_Page">Wikiquote</a></li>
+        <li><a href="https://en.wikisource.org/wiki/Main_Page">Wikisource</a></li>
+        <li><a href="https://en.wikiversity.org/wiki/Wikiversity:Main_Page">Wikiversity</a></li>
+        <li><a href="https://en.wikivoyage.org/wiki/Main_Page">Wikivoyage</a></li>
+        <li><a href="https://en.wiktionary.org/wiki/Wiktionary:Main_Page">Wiktionary</a></li>
+      </ul>
+      <p class="menuHeader">Languages</p>
+      <ul>
+        <li><a href="https://ar.wikipedia.org/wiki/">العربية</a></li>
+        <li><a href="https://bn.wikipedia.org/wiki/">বাংলা</a></li>
+        <li><a href="https://bg.wikipedia.org/wiki/">Български</a></li>
+        <li><a href="https://bs.wikipedia.org/wiki/">Bosanski</a></li>
+        <li><a href="https://ca.wikipedia.org/wiki/">Català</a></li>
+        <li><a href="https://cs.wikipedia.org/wiki/">Čeština</a></li>
+        <li><a href="https://da.wikipedia.org/wiki/">Dansk</a></li>
+        <li><a href="https://de.wikipedia.org/wiki/">Deutsch</a></li>
+        <li><a href="https://et.wikipedia.org/wiki/">Eesti</a></li>
+        <li><a href="https://el.wikipedia.org/wiki/">Ελληνικά</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/">Español</a></li>
+        <li><a href="https://eo.wikipedia.org/wiki/">Esperanto</a></li>
+        <li><a href="https://eu.wikipedia.org/wiki/">Euskara</a></li>
+        <li><a href="https://fa.wikipedia.org/wiki/">فارسی</a></li>
+        <li><a href="https://fr.wikipedia.org/wiki/">Français</a></li>
+        <li><a href="https://gl.wikipedia.org/wiki/">Galego</a></li>
+        <li><a href="https://ko.wikipedia.org/wiki/">한국어</a></li>
+        <li><a href="https://hr.wikipedia.org/wiki/">Hrvatski</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/">Bahasa Indonesia</a></li>
+        <li><a href="https://it.wikipedia.org/wiki/">Italiano</a></li>
+        <li><a href="https://he.wikipedia.org/wiki/">עברית</a></li>
+        <li><a href="https://ka.wikipedia.org/wiki/">ქართული</a></li>
+        <li><a href="https://lv.wikipedia.org/wiki/">Latviešu</a></li>
+        <li><a href="https://lt.wikipedia.org/wiki/">Lietuvių</a></li>
+        <li><a href="https://hu.wikipedia.org/wiki/">Magyar</a></li>
+        <li><a href="https://mk.wikipedia.org/wiki/">Македонски</a></li>
+        <li><a href="https://ms.wikipedia.org/wiki/">Bahasa Melayu</a></li>
+        <li><a href="https://nl.wikipedia.org/wiki/">Nederlands</a></li>
+        <li><a href="https://ja.wikipedia.org/wiki/">日本語</a></li>
+        <li><a href="https://no.wikipedia.org/wiki/">Norsk bokmål</a></li>
+        <li><a href="https://nn.wikipedia.org/wiki/">Norsk nynorsk</a></li>
+        <li><a href="https://pl.wikipedia.org/wiki/">Polski</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/">Português</a></li>
+        <li><a href="https://ro.wikipedia.org/wiki/">Română</a></li>
+        <li><a href="https://ru.wikipedia.org/wiki/">усский</a></li>
+        <li><a href="https://simple.wikipedia.org/wiki/">Simple English</a></li>
+        <li><a href="https://sk.wikipedia.org/wiki/">Slovenčina</a></li>
+        <li><a href="https://sl.wikipedia.org/wiki/">Slovenščina</a></li>
+        <li><a href="https://sr.wikipedia.org/wiki/">Српски / srpski</a></li>
+        <li><a href="https://sh.wikipedia.org/wiki/">Srpskohrvatski / српскохрватски</a></li>
+        <li><a href="https://fi.wikipedia.org/wiki/">Suomi</a></li>
+        <li><a href="https://sv.wikipedia.org/wiki/">Svenska</a></li>
+        <li><a href="https://th.wikipedia.org/wiki/">ไทย</a></li>
+        <li><a href="https://tr.wikipedia.org/wiki/">Türkçe</a></li>
+        <li><a href="https://uk.wikipedia.org/wiki/">Українська</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/">Tiếng Việt</a></li>
+        <li><a href="https://zh.wikipedia.org/wiki/">中文</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="something">
+    <div id="topMenu">
+      <ul>
+        <li><a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page">Log in</a></li>
+        <li><a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page">Create account</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Special:MyContributions">Contributions</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Special:MyTalk">Talk</a></li>
+        <li>Not logged in</li>
+      </ul>
+    </div>
+    <div id="secondBar">
+      <div id="lTabs">
+        <ul>
+          <li class="activeTab"><a href="#">Main Page</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Talk:Main_Page">Talk</a></li>
+        </ul>
+      </div>
+      <div class="spacer"></div>
+      <div id="rTabs">
+        <ul>
+          <li class="activeTab"><a href="#">Read</a></li>
+          <li><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&action=edit">View Source</a></li>
+          <li><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&action=history">View History</a></li>
+        </ul>
+      <input type="search" name="Search" placeholder="Search Wikipedia Clone"/>
+      <button id="searchButton"><img src="images/searchSymbol16px.png" /></button>
+      </div>
+    </div>
+    <main>
+      <div id="welcomeMessage">
+        <h2>Welcome to <a href="https://en.wikipedia.org/wiki/Wikipedia">Wikipedia</a>,</h2>
+        <p>the <a href="https://en.wikipedia.org/wiki/Free_content">free</a> <a href="https://en.wikipedia.org/wiki/Encyclopedia">encyclopedia</a> that <a href="https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia">anyone can edit.</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/Special:Statistics">6,488,901</a> articles in <a href="https://en.wikipedia.org/wiki/English_language">English</a></p>
+      </div>
+      <div id="noFloat">
+        <div class="left section sectionLarge">
+          <div class="heading hL">From today's featured article</div>
+          <div class="text">
+            <a href="https://en.wikipedia.org/wiki/File:Russian_soldiers_Sheykhalan_1915.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Russian_soldiers_Sheykhalan_1915.jpg/320px-Russian_soldiers_Sheykhalan_1915.jpg" alt="Russian soldiers in a former Armenian village, 1915" align="left"/></a>
+            <p>The <a href="https://en.wikipedia.org/wiki/Armenian_genocide"><b>Armenian genocide</b></a> was the systematic destruction of the <a href="https://en.wikipedia.org/wiki/Armenians_in_the_Ottoman_Empire">Armenian people and identity in the Ottoman Empire</a> during World War I. At the orders of <a href="https://en.wikipedia.org/wiki/Talaat_Pasha">Talaat Pasha</a>, an estimated
+              800,000 to 1,200,000 Armenian women, children, and elderly or infirm people were sent on death marches to the Syrian Desert in 1915 and 1916. Driven forward by paramilitary escorts, the deportees were deprived of food and water and subjected to robberies, <a href="https://en.wikipedia.org/wiki/Rape_during_the_Armenian_genocide">rapes</a>, and massacres. In the desert, the survivors were
+               dispersed into concentration camps. In 1916 another wave of massacres was ordered, leaving about 200,000 deportees alive by the end of 1916. Around 100,000 to 200,000 Armenian women and children were forcibly converted to Islam and integrated into Muslim households. <a href="https://en.wikipedia.org/wiki/Turkish_National_Movement">The Turkish nationalist movement</a> carried out massacres and ethnic cleansing of survivors during the
+               <a href="https://en.wikipedia.org/wiki/Turkish_War_of_Independence">Turkish War of Independence</a> after World War I. The Armenian genocide destroyed more than two millennia of Armenian
+               civilization in eastern Anatolia. (<a href="https://en.wikipedia.org/wiki/Armenian_genocide"><b>Full Article...</b></a>)</p>
+          </div>
+          <div class="links">
+            <p>Recently featured: <a href="https://en.wikipedia.org/wiki/American_paddlefish">American paddlefish</a> | <a href="https://en.wikipedia.org/wiki/Regine_Velasquez">Regine Valasquez</a> | <a href="https://en.wikipedia.org/wiki/John_Young_(astronaut)">John Young (astronaut)</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/April_2022"><b>Archive</b></a> | <a href="https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/"><b>By email</b></a> | <a href="https://en.wikipedia.org/wiki/Wikipedia:Featured_articles"><b>More featured articles</b></a></p>
+          </div>
+          <div class="heading hL">Did you know ...</div>
+          <div class="text">
+            <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Billyb_Sav_Bank_dome_bright_jeh.JPG/123px-Billyb_Sav_Bank_dome_bright_jeh.JPG" alt="Williamsburgh Savings Bank Building" align="right"/></a>
+            <ul>
+              <li>... that though one publication said in 2001 that going to the <a href="https://en.wikipedia.org/wiki/Williamsburgh_Savings_Bank_Building_(175_Broadway)"><b>Williamsburgh Savings Bank Building</b></a> was like "an act of religious devotion", it was poorly suited for modern uses?</li>
+              <li>... that legislator <a href="https://en.wikipedia.org/wiki/Henry_Alcazar"><b>Henry Alcazar</b></a> successfully defended everyone accused of inciting the 1903 <a href="https://en.wikipedia.org/wiki/Water_Riots">Water Riots</a> that burned down the <a href="https://en.wikipedia.org/wiki/Red_House_(Trinidad_and_Tobago)">Trinidad and Tobago seat of government</a>?</li>
+              <li>... that the final silent film directed by Giulia Cassini Rizzotto was partly funded by the Vatican and featured Italian aristocrats?</li>
+              <li>... that eight sailors on <a href="https://en.wikipedia.org/wiki/USS_Varuna_(1861)"><b>USS Varuna</b></a> received the <a href="https://en.wikipedia.org/wiki/Medal_of_Honor">Medal of Honor</a> for actions during the <a href="https://en.wikipedia.org/wiki/Battle_of_Forts_Jackson_and_St._Philip">Battle of Forts Jackson and St. Philip</a>?</li>
+              <li>... that the final silent film directed by <a href="https://en.wikipedia.org/wiki/Giulia_Cassini_Rizzotto"><b>Giulia Cassini Rizzotto</b></a> was partly funded by the Vatican and featured Italian aristocrats?</li>
+              <li>... that a 2020 study concluded that <a href="https://en.wikipedia.org/wiki/Taco_pizza"><b>taco pizza</b></a> is the favorite pizza of <a href="https://en.wikipedia.org/wiki/Iowa">Iowa</a>?</li>
+              <li>... that <a href="https://en.wikipedia.org/wiki/Khalid_ibn_Barmak"><b>Khalid ibn Barmak</b></a> was so close to the first <a href="https://en.wikipedia.org/wiki/Abbasid_Caliphate">Abbasid caliph</a>, <a href="https://en.wikipedia.org/wiki/Saffah">al-Saffah</a>, that his daughter was suckled by al-Saffah's wife?</li>
+              <li>... that the now-destroyed <a href="https://en.wikipedia.org/wiki/Statue_of_Alexander_Wood"><b>statue of Alexander Wood</b></a> was the first <a href="https://en.wikipedia.org/wiki/List_of_LGBT_monuments_and_memorials">LGBT monument</a> in Canada?</li>
+              <li>... that <a href="https://en.wikipedia.org/wiki/Mimi_Reinhardt"><b>Mimi Reinhardt</b></a> typed <a href="https://en.wikipedia.org/wiki/Oskar_Schindler">Schindler</a>'s list?</li>
+            </ul>
+          </div>
+          <div class="links">
+            <p><a href="https://en.wikipedia.org/wiki/Wikipedia:Recent_additions"><b>Archive</b></a> | <a href="https://en.wikipedia.org/wiki/Help:Your_first_article"><b>Start a new article</b></a> | <a href="https://en.wikipedia.org/wiki/Template_talk:Did_you_know"><b>Nominate an article</b></a>
+          </div>
+        </div>
+        <div class="right section sectionLarge">
+          <div class="heading hR">In the news</div>
+          <div class="text">
+            <a href="https://en.wikipedia.org/wiki/File:2019-05-24_Jos%C3%A9_Ramos-Horta_(cropped).jpg"><img class="smaller" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2019-05-24_Jos%C3%A9_Ramos-Horta_%28cropped%29.jpg/114px-2019-05-24_Jos%C3%A9_Ramos-Horta_%28cropped%29.jpg" alt="Jose Ramos-Horta" align="right"/></a>
+            <ul>
+              <li><a href="https://en.wikipedia.org/wiki/Jos%C3%A9_Ramos-Horta">José Ramos-Horta</a> (pictured) is <a href="https://en.wikipedia.org/wiki/2022_East_Timorese_presidential_election"><b>elected</b></a> as <a href="https://en.wikipedia.org/wiki/President_of_East_Timor">President of East Timor</a>.</li>
+              <li>Russia's <a href="https://en.wikipedia.org/wiki/Black_Sea_Fleet">Black Sea Fleet</a> flagship, the cruiser <a href="https://en.wikipedia.org/wiki/Russian_cruiser_Moskva">Moskva</a>, <a href="https://en.wikipedia.org/wiki/Sinking_of_the_Moskva"><b>sinks</b></a> off the coast of Ukraine.</li>
+              <li><a href="https://en.wikipedia.org/wiki/2022_KwaZulu-Natal_floods"><b>Flooding</b></a> across <a href="https://en.wikipedia.org/wiki/KwaZulu-Natal">KwaZulu-Natal</a>, South Africa, leaves at least 440 people dead.</li>
+              <li><a href="https://en.wikipedia.org/wiki/Shehbaz_Sharif"><b>Shehbaz Sharif</b></a> is elected as <a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Pakistan">Prime Minister of Pakistan</a> after <a href="https://en.wikipedia.org/wiki/Imran_Khan">Imran Khan</a> is removed in <a href="https://en.wikipedia.org/wiki/No-confidence_motion_against_Imran_Khan"><b>a no-confidence motion</b></a>.</li>
+            </ul>
+            <p><a href="https://en.wikipedia.org/wiki/Portal:Current_events"><b>Ongoing:</b></a> <a href="https://en.wikipedia.org/wiki/COVID-19_pandemic">COVID-19 pandemic</a> | <a href="https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine">Russian invasion of Ukraine</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Deaths_in_2022"><b>Recent Deaths:</b></a> <a href="https://en.wikipedia.org/wiki/Nicholas_Angelich">Nicholas Angelich</a> | <a href="https://en.wikipedia.org/wiki/Mwai_Kibaki">Mwai Kibaki</a> | <a href="https://en.wikipedia.org/wiki/Ali_Hamsa">Ali Hamsa</a> | <a href="https://en.wikipedia.org/wiki/Earl_Devaney">Earl Devaney</a> | <a href="https://en.wikipedia.org/wiki/Bridget_Tan">Bridget Tan</a> |
+              <a href="https://en.wikipedia.org/wiki/Renate_Holm">Renate Holm</a></p>
+          </div>
+          <div class="links">
+            <p><a href="https://en.wikipedia.org/wiki/Wikipedia:In_the_news/Candidates"><b>Nominate an article</b></a></p>
+          </div>
+          <div class="heading hR">On this day</div>
+          <div class="text">
+            <p><a href="https://en.wikipedia.org/wiki/April_24"><b>April 24:</b></a> <a href="https://en.wikipedia.org/wiki/Easter"><b>Easter</b></a> (Eastern Christianity, 2022); <a href="https://en.wikipedia.org/wiki/Divine_Mercy_Sunday"><b>Divine Mercy Sunday</b></a> (<a href="https://en.wikipedia.org/wiki/Catholic_Church">Catholicism</a>, 2022); <a href="https://en.wikipedia.org/wiki/Qadr_Night"><b>Night of Decree</b></a>
+              (<a href="https://en.wikipedia.org/wiki/Shia_Islam">Shia Islam</a>, 2022);
+              <a href="https://en.wikipedia.org/wiki/Armenian_Genocide_Remembrance_Day"><b>Armenian Genocide Remembrance Day</b></a> (<a href="https://en.wikipedia.org/wiki/1915">1915</a>)</p>
+              <a href="https://en.wikipedia.org/wiki/File:North_Flank_Kinder_Scout.JPG"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/North_Flank_Kinder_Scout.JPG/162px-North_Flank_Kinder_Scout.JPG" alt="North flank of Kinder Scout" align="right"/></a>
+              <ul>
+                <li><a href="https://en.wikipedia.org/wiki/1704">1704</a> – <a href="https://en.wikipedia.org/wiki/John_Campbell_(editor)">John Campbell</a> released the first issue of <a href="https://en.wikipedia.org/wiki/The_Boston_News-Letter"><b>The Boston News-Letter</b></a>, the first continuously published newspaper in <a href="https://en.wikipedia.org/wiki/British_North_America">British North America</a>.</li>
+                <li><a href="https://en.wikipedia.org/wiki/1866">1866</a> – German composer <a href="https://en.wikipedia.org/wiki/Max_Bruch">Max Bruch</a> conducted the premiere of his <a href="https://en.wikipedia.org/wiki/Violin_Concerto_No._1_(Bruch)"><b>first violin concerto</b></a>, which later became his most famous work.</li>
+                <li><a href="https://en.wikipedia.org/wiki/1922">1922</a> – The first portion of the <a href="https://en.wikipedia.org/wiki/Imperial_Wireless_Chain"><b>Imperial Wireless Chain</b></a>, a strategic international <a href="https://en.wikipedia.org/wiki/Wireless_telegraphy">wireless telegraphy</a> communications network created to link the countries of the <a href="https://en.wikipedia.org/wiki/British_Empire">British Empire</a>, opened.</li>
+                <li><a href="https://en.wikipedia.org/wiki/1932">1932</a> – An estimated 400 <a href="https://en.wikipedia.org/wiki/Walking#A_leisure_activity">ramblers</a> committed a <a href="https://en.wikipedia.org/wiki/Mass_trespass_of_Kinder_Scout"><b>wilful mass trespass</b></a> of <a href="https://en.wikipedia.org/wiki/Kinder_Scout">Kinder Scout</a> (pictured) in the <a href="https://en.wikipedia.org/wiki/Peak_District">Peak District</a> to highlight the denial of access to areas of open country
+                  in England.</li>
+                <li><a href="https://en.wikipedia.org/wiki/1965">1965</a> – <a href="https://en.wikipedia.org/wiki/Cold_War">Cold War</a>: The <a href="https://en.wikipedia.org/wiki/Dominican_Civil_War"><b>Dominican Civil War</b></a> broke out due to tensions following a military coup against the democratically elected government of President <a href="https://en.wikipedia.org/wiki/Juan_Bosch_(politician)">Juan Bosch</a> two years earlier.</li>
+              </ul>
+              <p><a href="https://en.wikipedia.org/wiki/Axel_von_Fersen_the_Elder"><b>Axel von Fersen the Elder</b></a> (d. 1794) | <a href="https://en.wikipedia.org/wiki/Benjamin_Lee_Whorf"><b>Benjamin Lee Whorf</b></a> (b. 1897) | <a href="https://en.wikipedia.org/wiki/Richard_M._Daley"><b>Richard M. Daley</b></a> (b. 1942)</p>
+              <p>More anniversaries: <a href="https://en.wikipedia.org/wiki/April_23">April 23</a> | <a href="https://en.wikipedia.org/wiki/April_24"><b>April 24</b></a> | <a href="https://en.wikipedia.org/wiki/April_25">April 25</a></p>
+          </div>
+          <div class="links">
+            <p><a href="https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries/April"><b>Archive</b></a> | <a href="https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/"><b>By email</b></a> | <a href="https://en.wikipedia.org/wiki/List_of_days_of_the_year"><b>List of days of the year</b></a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="full section sectionSmall">
+        <div class="heading hP">Today's featured picture</div>
+        <a href="https://en.wikipedia.org/wiki/File:Easter_breakfast_in_Serbia_(close-up).jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Easter_breakfast_in_Serbia_%28close-up%29.jpg/400px-Easter_breakfast_in_Serbia_%28close-up%29.jpg" alt="Serbian Easter breakfast" align="left"/></a>
+        <div class="text">
+          <p><a href="https://en.wikipedia.org/wiki/Balkan_cuisine"><b>Balkan cuisine</b></a> is a type of regional cuisine found across the <a href="https://en.wikipedia.org/wiki/Balkans">Balkan</a> region in southeastern Europe. It combines characteristics of <a href="https://en.wikipedia.org/wiki/European_cuisine">European cuisine</a> with some of those from western Asia. This photograph depicts a <a href="https://en.wikipedia.org/wiki/Serbian_cuisine">Serbian breakfast</a> traditionally
+            served on Orthodox <a href="https://en.wikipedia.org/wiki/Easter">Easter</a>, consisting of boiled eggs, cheese, ham, horseradish, scallions, pepper salad with garlic, rye bread, and cinnamon cakes. A similar meal is commonly eaten in Slovenia, but with <a href="https://en.wikipedia.org/wiki/Slovenian_potica">Slovenian potica</a> instead of cake.</p>
+          <p>Photograph credit: Petar Milošević</p>
+        </div>
+        <div class="links">
+          <p>Recently featured: <a href="https://en.wikipedia.org/wiki/Template:POTD/2022-04-23">Blue-sided leaf frog</a> | <a href="https://en.wikipedia.org/wiki/Template:POTD/2022-04-22">Werther</a> | <a href="https://en.wikipedia.org/wiki/Template:POTD/2022-04-21">Bar-shouldered dove</a></p>
+          <p><a href="https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day/Archive"><b>Archive</b></a> | <a href="https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures"><b>More featured pictures</b></a></p>
+        </div>
+      </div>
+
+      <div class="full grey section sectionMid">
+        <div class="heading darkGrey">Other areas of Wikipedia</div>
+        <div class="text">
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Community_portal">Community portal</a> – The central hub for editors, with resources, links, tasks, and announcements.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Village_pump">Village pump</a> – Forum for discussions about Wikipedia itself, including policies and technical issues.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:News">Site news</a> – Sources of news about Wikipedia and the broader Wikimedia movement.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Teahouse">Teahouse</a> – Ask basic questions about using or editing Wikipedia.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Help_desk">Help desk</a> – Ask questions about using or editing Wikipedia.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Reference_desk">Reference desk</a> – Ask research questions about encyclopedic topics.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals">Content portals</a> – A unique way to navigate the encyclopedia.</li>
+          </ul>
+        </div>
+        <div class="heading darkGrey">Wikipedia's sister projects</div>
+        <div class="text">
+          <p>Wikipedia is written by volunteer editors and hosted by the <a href="https://en.wikipedia.org/wiki/Wikimedia_Foundation">Wikimedia Foundation</a>, a non-profit organization that also hosts a range of other volunteer <a href="https://wikimediafoundation.org/our-work/wikimedia-projects/">projects</a>:</p>
+          <ul class="smallImg">
+            <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/31px-Commons-logo.svg.png" align="left"/><a href="https://commons.wikimedia.org/wiki/">Commons</a><p>Free media respository</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png" align="left"/><a href="https://www.wikidata.org/wiki/">Wikidata</a><p>Free knowledge base</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/35px-Wikispecies-logo.svg.png" align="left"/><a href="https://species.wikimedia.org/wiki/">Wikispecies</a><p>Directory of species</p></li>
+          </ul>
+          <ul class="smallImg">
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/35px-MediaWiki-2020-icon.svg.png" align="left"/><a href="https://www.mediawiki.org/wiki/">MediaWiki</a><p>Wiki software development</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/51px-Wikinews-logo.svg.png" align="left"/><a href="https://en.wikinews.org/wiki/">Wikinews</a><p>Free-content news</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/41px-Wikiversity_logo_2017.svg.png" align="left"/><a href="https://en.wikiversity.org/wiki/">Wikiversity</a><p>Free learning tools</p></li>
+          </ul>
+          <ul class="smallImg">
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/35px-Wikimedia_Community_Logo.svg.png" align="left"/><a href="https://meta.wikimedia.org/wiki/">Meta-Wiki</a><p>Wikimedia project coordination</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/35px-Wikiquote-logo.svg.png" align="left"/><a href="https://en.wikiquote.org/wiki/">Wikiquote</a><p>Collection of quotations</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/35px-Wikivoyage-Logo-v3-icon.svg.png" align="left"/><a href="https://en.wikivoyage.org/wiki/">Wikivoyage</a><p>Free travel guide</p></li>
+          </ul>
+          <ul class="smallImg">
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/35px-Wikibooks-logo.svg.png" align="left"/><a href="https://en.wikibooks.org/wiki/">Wikibooks</a><p>Free textbooks and manuals</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/35px-Wikisource-logo.svg.png" align="left"/><a href="https://en.wikisource.org/wiki/">Wikisource</a><p>Free-content library</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/35px-Wiktionary-logo-v2.svg.png" align="left"/><a href="https://en.wiktionary.org/wiki/">Wiktionary</a><p>Dictionary and Thesaurus</p></li>
+          </ul>
+        </div>
+        <div class="heading darkGrey">Wikipedia Languages</div>
+        <div class="text">
+          <p>This Wikipedia is written in <a href="https://en.wikipedia.org/wiki/English_language">English</a>. Many <a href="https://meta.wikimedia.org/wiki/List_of_Wikipedias">other Wikipedias are available</a>; some of the largest are listed below.</p>
+          <p class="center">1,000,000+ articles</p>
+          <p class="center">العربية | Deutsch | Español | Français | Italiano | Nederlands | 日本語 | Polski | Português | Русский | SvenskaУкраїнська | Tiếng Việt | 中文</p>
+          <p class="center">250,000+ articles</p>
+          <p class="center">Bahasa Indonesia | Bahasa Melayu | Bân-lâm-gú | Български | Català | Čeština | Dansk | Esperanto | Euskara | فارسی‎ | עברית | 한국어 | Magyar | Norsk Bokmål | Română | Srpski | Srpskohrvatski | Suomi | Türkçe</p>
+          <p class="center">50,000+ articles</p>
+          <p class="center">Asturianu | বাংলা | Bosanski | Eesti | Ελληνικά | Simple English | Galego | Hrvatski | Latviešu | Lietuvių | മലയാളം | Македонски | Norsk nynorsk | Shqip | Slovenčina | Slovenščina | ไทย</p>
+        </div>
+      </div>
+
+    </main>
+    <footer>
+      <div class="full section">
+        <p>Text is available under the <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a>; additional terms may apply. By using this site, you agree to the <a href="https://foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the
+          <a href="https://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</p>
+        <ul class="flex">
+          <li><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Wikipedia:About">About Wikipedia</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+          <li><a href="https://en.m.wikipedia.org/w/index.php?title=Main_Page&mobileaction=toggle_view_mobile">Mobile view</a></li>
+          <li><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+          <li><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+          <li><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+        </ul>
+        <p> &copy; 2021 Michael Lugo</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
